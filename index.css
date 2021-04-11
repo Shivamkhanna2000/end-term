@@ -1,0 +1,16 @@
+body{
+    background-image: url('covid pic.jpg');
+    background-size: cover;
+    
+}
+
+#res
+{
+    background-color: white;
+    display: none;
+    width: 50vh;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+
+}

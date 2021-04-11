@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="index.css">
+
+    </head>
+
+    <body>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col offset-2">
+                <input type="text" id="cname" placeholder="country"> 
+            </div>
+
+            <div class="col">
+                <input type="date" id="sdate"> 
+            </div>
+
+            <div class="col">
+                <input type="date" id="edate"> 
+            </div>
+
+            <div class="col">
+                <button onclick="frmData()">submit</button> 
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div id="res">
+            <h4>Confirmed Cases:<span id="confirmed"></span> </h4>
+            <h4>Active Cases: <span id="active"></span></h4>
+            <h4>Death Cases: <span id="deaths"></span> </h4>
+        </div>
+    </div>
+
+        <div class="row" id="cas">
+            
+        </div>
+
+
+        <script src="index.js"></script>
+    </body>
+     
+</html>
